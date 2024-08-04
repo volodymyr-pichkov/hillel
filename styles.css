@@ -1,0 +1,49 @@
+* {
+  /*Универсальный селектор для всех элементов*/
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+p {
+  color: blue;
+}
+
+.first {
+  background-color: red;
+  float: right;
+}
+
+#zagolovok {
+  color: teal;
+}
+
+a[href^="scenery"] {
+  background-color: salmon;
+  color: black;
+  font-size: 100px;
+  text-decoration: none;
+}
+
+.second section p {
+  color: deeppink;
+  background-color: blue;
+  font-size: 50px;
+}
+
+section > p {
+  color: gold;
+  background-color: red;
+  font-size: 50px;
+}
+
+span ~ p {
+  color: lime;
+  background-color: pink;
+  font-size: 50px;
+}
+
+div.clounada p {
+  color: #cf6621;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
