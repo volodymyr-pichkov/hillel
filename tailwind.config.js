@@ -12,6 +12,15 @@ module.exports = {
       maxWidth: {
         '1366': '1366px',
       },
+      fontFamily: {
+        work: ['Work Sans', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
+      },
+      colors: {
+        'title-dark': '#1F1E25',
+        'nav-text': '#707C87',
+        'link': '#2C36F2',
+      },
     },
   },
   plugins: [],
