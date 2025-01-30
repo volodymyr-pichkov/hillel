@@ -5,7 +5,7 @@ const Header = () => {
     <header className="w-full h-auto max-w-[1366px] max-h-[91px] flex justify-between items-center bg-layout-white">
       <div className="flex justify-center items-center">
         <img
-          className="h-auto mt-[34px] mr-[12px] mb-[34px] ml-[100px]"
+          className="mt-[34px] mr-[12px] mb-[34px] ml-[100px]"
           src="../assets/images/logo.svg"
           alt="logo"
         />
