@@ -2,22 +2,22 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="w-full h-auto max-w-[1366px] max-h-[224px] flex items-center bg-layout-white">
+    <footer className="w-full h-auto max-w-[1366px] max-h-[224px] flex justify-between items-center bg-layout-white">
 
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col justify-center">
 
         <div className="flex">
           <img
-            className="#"
+            className="mt-[53px] mb-[18px] ml-[101px]"
             src="../assets/images/logo.svg"
             alt="logo"
           />
-          <h2 className="flex flex-col text-title-dark font-work text-xl leading-normal font-bold justify-center">
+          <h2 className="flex flex-col text-title-dark font-work text-xl leading-normal font-bold justify-center  mt-[60px] mb-[20px] ml-[11px]">
             Чіп Чендж
           </h2>
         </div>
 
-        <div className="flex flex-col justify-center text-nav-text font-roboto text-xs leading-[1.4]">
+        <div className="flex flex-col justify-center text-nav-text font-roboto text-xs leading-[1.4] ml-[98px] mb-[87px]">
           <p>04128, м.Київ, вул. Хрещатик, 19</p>
           <p>Ліцензія НБУ №156</p>
           <p>&#169; ПАТ ЧіпЧендж, 2019-2023</p>
@@ -48,7 +48,7 @@ const Footer = () => {
 
       </div>
       
-{/*
+
       <div className="flex flex-col">
         <div className="flex justify-center">
         <img src="../assets/icons/handset.svg" alt="phone icon" className="#" />
@@ -56,7 +56,11 @@ const Footer = () => {
         </div>
         <p className="#">Безкожтовно для дзвінків в межах України</p>
       </div>
-*/}
+
+      <div className="flex">
+        <img src="../assets/icons/network.svg" alt="facebook icon" className="#" />
+      </div>
+
       
       
     </footer>
