@@ -2,67 +2,61 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="w-full h-auto max-w-[1366px] max-h-[224px] flex justify-between items-center bg-layout-white">
+    <footer className="w-full max-w-[1366px] flex justify-between items-center bg-layout-white">
+      
+        <div className="flex flex-col">
+          <div className="flex">
+            <img src="../assets/images/logo.svg" alt="Cheap Change logo" />
+            <h2 className="text-title-dark font-work text-xl font-bold">
+              Чіп Чендж
+            </h2>
+          </div>
+          <div className="text-nav-text font-roboto text-xs leading-[1.4]">
+            <p>04128, м.Київ, вул. Хрещатик, 19</p>
+            <p>Ліцензія НБУ №156</p>
+            <p>&#169; ПАТ ЧіпЧендж, 2019-2023</p>
+          </div>
+        </div>
 
-      <div className="flex flex-col justify-center">
+        <nav className="font-roboto text-nav-text text-xs leading-normal space-y-5">
+          <ul>
+            <li>
+              <a href="#">Послуги</a>
+            </li>
+            <li>
+              <a href="#">Конвертер валют</a>
+            </li>
+            <li>
+              <a href="#">Контакти</a>
+            </li>
+            <li>
+              <a href="#">Задати питання</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div className="flex flex-col items-center">
+          <div className="flex justify-center">
+            <img src="../assets/icons/phone.svg" alt="Phone icon" />
+            <p className="font-roboto text-base font-medium text-title-dark">
+              3773
+            </p>
+          </div>
+          <p className="text-nav-text text-xs">Цілодобова підтримка</p>
+        </div>
+
+        <div className="flex flex-col items-center">
+          <div className="flex justify-center">
+            <img src="../assets/icons/handset.svg" alt="Phone icon" />
+            <p>8 800 111 22 33</p>
+          </div>
+          <p>Безкоштовно для дзвінків в межах України</p>
+        </div>
 
         <div className="flex">
-          <img
-            className="mt-[53px] mb-[18px] ml-[101px]"
-            src="../assets/images/logo.svg"
-            alt="logo"
-          />
-          <h2 className="flex flex-col text-title-dark font-work text-xl leading-normal font-bold justify-center  mt-[60px] mb-[20px] ml-[11px]">
-            Чіп Чендж
-          </h2>
+          <img src="../assets/icons/network.svg" alt="Social network" />
         </div>
 
-        <div className="flex flex-col justify-center text-nav-text font-roboto text-xs leading-[1.4] ml-[98px] mb-[87px]">
-          <p>04128, м.Київ, вул. Хрещатик, 19</p>
-          <p>Ліцензія НБУ №156</p>
-          <p>&#169; ПАТ ЧіпЧендж, 2019-2023</p>
-        </div>
-
-      </div>
-
-      
-      <nav className="flex flex-col justify-center font-roboto text-nav-text leading-normal space-y-5">
-
-        <ul>
-            <li className="#"><a href="#" >Послуги</a></li>
-            <li className="#"><a href="#" >Конвертер валют</a></li>
-            <li className="#"><a href="#" >Контакти</a></li>
-            <li className="#"><a href="#" >Задати питання</a></li>
-        </ul>
-
-      </nav>
-
-      <div className="flex flex-col">
-
-        <div className="flex justify-center">
-        <img src="../assets/icons/phone.svg" alt="phone icon" className="#" />
-        <p className="flex flex-col justify-center font-roboto text-base font-medium leading-[1.4] text-title-dark">3773</p>
-        </div>
-
-        <p className="flex flex-col justify-center text-nav-text text-xs leading-[1.2]">Цілодобова підтримка</p>
-
-      </div>
-      
-
-      <div className="flex flex-col">
-        <div className="flex justify-center">
-        <img src="../assets/icons/handset.svg" alt="phone icon" className="#" />
-        <p className="#">8 800 111 22 33</p>
-        </div>
-        <p className="#">Безкожтовно для дзвінків в межах України</p>
-      </div>
-
-      <div className="flex">
-        <img src="../assets/icons/network.svg" alt="facebook icon" className="#" />
-      </div>
-
-      
-      
     </footer>
   );
 };

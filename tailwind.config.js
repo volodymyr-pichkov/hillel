@@ -21,6 +21,7 @@ module.exports = {
         'nav-text': '#707C87',
         'link': '#2C36F2',
         'layout-white': '#F6F7FF',
+        'background-white': '#FFFFFF',
       },
     },
   },
