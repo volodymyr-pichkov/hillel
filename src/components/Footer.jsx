@@ -2,10 +2,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="w-full max-w-[1366px] flex justify-between items-center bg-layout-white">
-      
-        <div className="flex flex-col">
-          <div className="flex">
+    <footer className="w-full max-w-[1366px] mx-auto bg-layout-white">
+      <nav className="flex flex-wrap justify-between items-start bg-layout-white px-[20px] md:px-[50px] lg:px-[100px] py-[20px] md:py-[34px]">
+
+        <div className="flex flex-col items-start gap-y-5 w-full md:w-auto">
+          <div className="flex items-center gap-x-3">
             <img src="../assets/images/logo.svg" alt="Cheap Change logo" />
             <h2 className="text-title-dark font-work text-xl font-bold">
               Чіп Чендж
@@ -18,25 +19,17 @@ const Footer = () => {
           </div>
         </div>
 
-        <nav className="font-roboto text-nav-text text-xs leading-normal space-y-5">
-          <ul>
-            <li>
-              <a href="#">Послуги</a>
-            </li>
-            <li>
-              <a href="#">Конвертер валют</a>
-            </li>
-            <li>
-              <a href="#">Контакти</a>
-            </li>
-            <li>
-              <a href="#">Задати питання</a>
-            </li>
+        <div className="flex flex-col font-roboto text-nav-text text-xs leading-[1.4] w-full md:w-auto mt-1">
+          <ul className="space-y-5">
+            <li><a href="#">Послуги</a></li>
+            <li><a href="#">Конвертер валют</a></li>
+            <li><a href="#">Контакти</a></li>
+            <li><a href="#">Задати питання</a></li>
           </ul>
-        </nav>
+        </div>
 
-        <div className="flex flex-col items-center">
-          <div className="flex justify-center">
+        <div className="flex flex-col items-start gap-y-1.5 w-full sm:w-auto">
+          <div className="flex items-center gap-x-5 leading-[1.4]">
             <img src="../assets/icons/phone.svg" alt="Phone icon" />
             <p className="font-roboto text-base font-medium text-title-dark">
               3773
@@ -45,18 +38,18 @@ const Footer = () => {
           <p className="text-nav-text text-xs">Цілодобова підтримка</p>
         </div>
 
-        <div className="flex flex-col items-center">
-          <div className="flex justify-center">
+        <div className="flex flex-col items-start gap-y-2.5 w-full sm:w-auto">
+          <div className="flex items-center gap-x-4">
             <img src="../assets/icons/handset.svg" alt="Phone icon" />
             <p>8 800 111 22 33</p>
           </div>
           <p>Безкоштовно для дзвінків в межах України</p>
         </div>
 
-        <div className="flex">
+        <div className="flex items-center w-full sm:w-auto justify-center sm:justify-start">
           <img src="../assets/icons/network.svg" alt="Social network" />
         </div>
-
+      </nav>
     </footer>
   );
 };
