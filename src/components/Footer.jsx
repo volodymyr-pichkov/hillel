@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="w-full max-w-1366 mx-auto bg-layout-white">
-      <nav className="flex flex-wrap justify-between items-start bg-layout-white px-[20px] md:px-[50px] lg:px-[100px] py-[20px] md:py-[34px]">
+      <nav className="flex flex-wrap justify-between items-start px-[20px] md:px-[50px] lg:px-[100px] py-[20px] md:py-[34px]">
         <div className="flex flex-col items-start gap-y-5 w-full md:w-auto">
           <div className="flex items-center gap-x-3">
             <img src="../assets/images/logo.svg" alt="Cheap Change logo" />

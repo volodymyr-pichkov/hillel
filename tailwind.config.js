@@ -6,10 +6,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      screens: {
-      },
       maxWidth: {
         '1366': '1366px',
+      },
+      backgroundImage: {
+        'banner': "url('/public/assets/images/main-banner.png')",
       },
       fontFamily: {
         work: ['Work Sans', 'sans-serif'],
@@ -20,7 +21,7 @@ module.exports = {
         'nav-text': '#707C87',
         'link': '#2C36F2',
         'layout-white': '#F6F7FF',
-        'background-white': '#FFFFFF',
+        'white': '#FFFFFF',
       },
     },
   },
