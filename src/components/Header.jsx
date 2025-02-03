@@ -2,9 +2,8 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="w-full max-w-[1366px] mx-auto bg-layout-white">
+    <header className="w-full max-w-1366 mx-auto bg-layout-white">
       <nav className="flex justify-between items-center px-[20px] md:px-[50px] lg:px-[100px] py-[20px] md:py-[34px]">
-        
         <div className="flex items-center">
           <img
             className="mr-[10px] md:mr-[12px]"
