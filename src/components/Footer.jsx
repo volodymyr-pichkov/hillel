@@ -53,7 +53,7 @@ const Footer = () => {
           <p className="text-nav-text text-xs leading-[1.4] mt-2.5 ml-8">Безкоштовно для дзвінків</p>
           <p className="text-nav-text text-xs leading-[1.4] mt-2.5 ml-8">в межах України</p>
         </div>
-
+        {/* нарежь иконки или найди похожие*/}
         <div className="flex items-center w-full sm:w-auto justify-center sm:justify-start">
           <img src="../assets/icons/network.svg" alt="Social network" />
         </div>
