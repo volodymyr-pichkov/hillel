@@ -1,11 +1,7 @@
-import React from "react";
-
 const HeaderNav = () => {
   return (
     <div>
-      {" "}
-      {/* Добавь синюю подсветку */}
-      <ul className="flex font-roboto text-nav-text space-x-5 md:space-x-10">
+      <ul className="flex font-roboto text-navigation space-x-5 md:space-x-10">
         <li>
           <a href="/">Послуги</a>
         </li>

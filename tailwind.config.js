@@ -11,12 +11,13 @@ module.exports = {
         roboto: ["Roboto", "sans-serif"],
       },
       colors: {
-        "title-dark": "#1F1E25",
-        "nav-text": "#707C87",
+        title: "#1F1E25",
+        navigation: "#707C87",
+        background: "#F6F7FF",
         link: "#2C36F2",
-        "layout-white": "#F6F7FF",
         white: "#FFFFFF",
-      },
+        grey: "#E0E1EA",
+      }      
     },
   },
   plugins: [],

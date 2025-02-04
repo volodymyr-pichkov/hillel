@@ -1,5 +1,3 @@
-import React from "react";
-
 const HeaderLogo = () => {
   return (
     <div className="flex items-center">
@@ -8,7 +6,7 @@ const HeaderLogo = () => {
         src="/assets/images/logo.svg"
         alt="Cheap Change Logo"
       />
-      <h1 className="text-title-dark font-work text-xl font-bold">Чіп Чендж</h1>
+      <h1 className="text-title font-work text-xl font-bold">Чіп Чендж</h1>
     </div>
   );
 };
