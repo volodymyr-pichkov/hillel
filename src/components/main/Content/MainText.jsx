@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const MainText = () => {
   return (
     <div className="flex flex-col items-start space-y-6">
@@ -15,9 +17,11 @@ const MainText = () => {
           становить 50 і більше відсотків.
         </p>
       </div>
+      <NavLink to="/converter">
       <button className="rounded bg-link w-[251px] h-[60px] text-background text-center font-roboto font-medium text-lg leading-[1.4]">
         Конвертувати валюту
       </button>
+      </NavLink>
     </div>
   );
 };

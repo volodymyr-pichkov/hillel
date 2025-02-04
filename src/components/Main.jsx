@@ -10,7 +10,7 @@ const Main = () => {
       >
         <BannerContent />
       </div>
-      <div className="flex justify-center items-center px-[250px] gap-x-[100px] h-fit min-h-[554px]">
+      <div className="flex justify-center items-center px-[250px] gap-x-[95px] h-fit min-h-[554px]">
         <MainContent />
       </div>
     </main>

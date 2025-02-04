@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const HeaderNav = () => {
   return (
     <div>
@@ -6,7 +8,14 @@ const HeaderNav = () => {
           <a href="/">Послуги</a>
         </li>
         <li>
-          <a href="/">Конвертер валют</a>
+        <NavLink
+            to="/converter"
+            className={({ isActive }) =>
+              isActive ? "text-link" : "text-navigation"
+            }
+          >
+            Конвертер валют
+          </NavLink>
         </li>
         <li>
           <a href="/">Контакти</a>

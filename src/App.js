@@ -1,15 +1,17 @@
-import React from 'react';
-import Header from './components/Header';
-import Main from './components/Main';
-import Footer from './components/Footer';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import CurrencyConverter from "./pages/CurrencyConverter";
 
 function App() {
   return (
-    <>
-    <Header />
-    <Main />
-    <Footer />
-    </>
+    <Router>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/converter" element={<CurrencyConverter />} />
+      </Routes>
+    </Router>
   );
 }
 
