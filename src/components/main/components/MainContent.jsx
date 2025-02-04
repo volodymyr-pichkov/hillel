@@ -1,4 +1,3 @@
-
 import MainText from "./Content/MainText";
 import MastercardMain from "./Content/MastercardMain"
 

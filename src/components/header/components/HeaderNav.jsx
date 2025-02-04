@@ -1,6 +1,9 @@
 import { NavLink } from "react-router-dom";
 
-const HeaderNav = () => {
+const HeaderNav = (/*{direction}*/) => {
+  //row
+  //column
+  // ClassNames library
   return (
     <div>
       <ul className="flex font-roboto text-navigation space-x-5 md:space-x-10">

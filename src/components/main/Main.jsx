@@ -1,5 +1,5 @@
-import BannerContent from "./main/BannerContent";
-import MainContent from "./main/MainContent";
+import BannerContent from "./components/BannerContent";
+import MainContent from "./components/MainContent";
 
 const Main = () => {
   return (

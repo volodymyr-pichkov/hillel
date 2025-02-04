@@ -1,7 +1,7 @@
 import TextBanner from "./Content/TextBanner";
 import MastercardBanner from "./Content/MastercardBanner"
 
-const ContentBanner = () => {
+const BannerContent = () => {
     return (
         <>
         <TextBanner />
@@ -10,5 +10,5 @@ const ContentBanner = () => {
     );
   };
   
-  export default ContentBanner;
+  export default BannerContent;
   

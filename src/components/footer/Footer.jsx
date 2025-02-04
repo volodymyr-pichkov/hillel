@@ -1,8 +1,8 @@
-import FooterLogo from "./footer/FooterLogo";
-import FooterNav from "./footer/FooterNav";
-import FooterPhone from "./footer/FooterPhone";
-import FooterPhone2 from "./footer/FooterPhone2";
-import FooterNetwork from "./footer/FooterNetwork";
+import FooterLogo from "./components/FooterLogo";
+import FooterNav from "./components/FooterNav";
+import FooterPhone from "./components/FooterPhone";
+import FooterPhone2 from "./components/FooterPhone2";
+import FooterNetwork from "./components/FooterNetwork";
 
 const Footer = () => {
   return (

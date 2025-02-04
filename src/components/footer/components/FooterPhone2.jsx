@@ -1,4 +1,4 @@
-const FooterPhone2 = () => {
+const FooterPhone2 = () => { // contact inf
   return (
     <div className="flex flex-col items-start w-full sm:w-auto">
       <div className="flex items-center gap-x-4">

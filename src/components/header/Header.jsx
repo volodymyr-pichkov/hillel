@@ -1,6 +1,6 @@
-import HeaderLogo from "./header/HeaderLogo";
-import HeaderNav from "./header/HeaderNav";
-import HeaderAccount from "./header/HeaderAccount";
+import HeaderLogo from "./components/HeaderLogo";
+import HeaderNav from "./components/HeaderNav";
+import HeaderAccount from "./components/HeaderAccount";
 
 const Header = () => {
   return (
