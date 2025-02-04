@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="w-full max-w-1366 mx-auto bg-layout-white">
+    <footer className="w-full mx-auto bg-layout-white">
       <nav className="flex flex-wrap justify-between items-start px-[20px] md:px-[50px] lg:px-[100px] py-[20px] md:py-[34px]">
         <div className="flex flex-col items-start gap-y-5 w-full md:w-auto">
           <div className="flex items-center gap-x-3">
@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col font-roboto text-nav-text text-xs leading-[1.4] w-full md:w-auto mt-1">
-          <ul className="space-y-5">
+          <ul className="space-y-2">
             <li>
               <a href="#">Послуги</a>
             </li>
@@ -36,21 +36,22 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col items-start gap-y-1.5 w-full sm:w-auto">
-          <div className="flex items-center gap-x-5 leading-[1.4]">
+          <div className="flex gap-x-5 leading-[1.4]">
             <img src="../assets/icons/phone.svg" alt="Phone icon" />
             <p className="font-roboto text-base font-medium text-title-dark">
               3773
             </p>
           </div>
-          <p className="text-nav-text text-xs">Цілодобова підтримка</p>
+          <p className="ml-[30px] text-nav-text text-xs leading-[1.4]">Цілодобова підтримка</p>
         </div>
 
-        <div className="flex flex-col items-start gap-y-2.5 w-full sm:w-auto">
+        <div className="flex flex-col items-start w-full sm:w-auto">
           <div className="flex items-center gap-x-4">
             <img src="../assets/icons/handset.svg" alt="Phone icon" />
-            <p>8 800 111 22 33</p>
+            <p className="text-title-dark font-roboto font-medium leading-[1.4]">8 800 111 22 33</p>
           </div>
-          <p>Безкоштовно для дзвінків в межах України</p>
+          <p className="text-nav-text text-xs leading-[1.4] mt-2.5 ml-8">Безкоштовно для дзвінків</p>
+          <p className="text-nav-text text-xs leading-[1.4] mt-2.5 ml-8">в межах України</p>
         </div>
 
         <div className="flex items-center w-full sm:w-auto justify-center sm:justify-start">

@@ -1,9 +1,10 @@
 import React from "react";
 
+
 const Main = () => {
   return (
-    <main className="w-full max-w-1366 mx-auto">
-      <div className="flex justify-between items-center bg-banner bg-cover bg-center h-[400px] px-[250px] text-white">
+    <main className="w-full mx-auto">
+      <div className="flex justify-between items-center bg-banner bg-cover bg-center h-[400px] px-[250px] text-white gap-x-[213px]">
         <div className="flex flex-col items-start">
           <h2>Чіп Чендж</h2>
           <p>Обмінник валют - навчальний</p>
