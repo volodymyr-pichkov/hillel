@@ -18,10 +18,8 @@ const MainContent = () => {
             становить 50 і більше відсотків.
           </p>
         </div>
-        <NavLink to="/converter">
-          <button className="rounded bg-link w-[251px] h-[60px] text-background text-center font-roboto font-medium text-lg leading-[1.4]">
+        <NavLink to="/converter" className="flex items-center justify-center rounded bg-link w-[251px] h-[60px] text-background font-roboto font-medium text-lg leading-[1.4]">
             Конвертувати валюту
-          </button>
         </NavLink>
       </div>
       <div className="rounded bg-gray-200 bg-opacity-50 bg-cover bg-no-repeat bg-center">

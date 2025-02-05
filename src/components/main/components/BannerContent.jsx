@@ -10,9 +10,9 @@ const BannerContent = () => {
         <p className="text-grey font-roboto text-sm font-medium">
           Обмінник валют - навчальний
         </p>
-        <button className="rounded bg-background w-[234px] h-[53px] text-navigation text-center font-roboto font-medium text-lg">
+        <NavLink to="/converter" className="flex items-center justify-center rounded bg-background w-[234px] h-[53px] text-navigation font-roboto font-medium text-lg">
           Конвертер валют
-        </button>
+        </NavLink>
       </div>
       <div className="bg-gray-200 bg-opacity-50 bg-cover bg-no-repeat bg-center">
         <img

@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const HeaderNav = (/*{direction}*/) => {
   //row
@@ -8,10 +8,17 @@ const HeaderNav = (/*{direction}*/) => {
     <div>
       <ul className="flex font-roboto text-navigation space-x-5 md:space-x-10">
         <li>
-          <a href="/">Послуги</a>
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive ? "text-link" : "text-navigation"
+            }
+          >
+            Послуги
+          </NavLink>
         </li>
         <li>
-        <NavLink
+          <NavLink
             to="/converter"
             className={({ isActive }) =>
               isActive ? "text-link" : "text-navigation"
@@ -21,10 +28,10 @@ const HeaderNav = (/*{direction}*/) => {
           </NavLink>
         </li>
         <li>
-          <a href="/">Контакти</a>
+          <Link to="#">Контакти</Link>
         </li>
         <li>
-          <a href="/">Задати питання</a>
+          <Link to="#">Задати питання</Link>
         </li>
       </ul>
     </div>

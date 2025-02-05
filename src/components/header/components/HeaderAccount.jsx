@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const HeaderAccount = () => {
   return (
     <div className="flex items-center">
@@ -6,9 +8,9 @@ const HeaderAccount = () => {
         src="/assets/icons/account.svg"
         alt="Personal account icon"
       />
-      <a href="/" className="text-title font-roboto text-sm md:text-base">
+      <Link to="#" className="text-title font-roboto text-sm md:text-base">
         Особистий кабінет
-      </a>
+      </Link>
     </div>
   );
 };
