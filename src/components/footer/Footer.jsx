@@ -1,7 +1,7 @@
 import FooterLogo from "./components/FooterLogo";
 import FooterNav from "./components/FooterNav";
 import FooterPhone from "./components/FooterPhone";
-import FooterPhone2 from "./components/FooterPhone2";
+import FooterContacts from "./components/FooterContacts";
 import FooterNetwork from "./components/FooterNetwork";
 
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
         <FooterLogo />
         <FooterNav />
         <FooterPhone />
-        <FooterPhone2 />
+        <FooterContacts />
         <FooterNetwork />
       </nav>
     </footer>

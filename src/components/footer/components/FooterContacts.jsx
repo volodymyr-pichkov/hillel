@@ -1,8 +1,8 @@
-const FooterPhone2 = () => { // contact inf
+const FooterContacts = () => {
   return (
     <div className="flex flex-col items-start w-full sm:w-auto">
       <div className="flex items-center gap-x-4">
-        <img src="../assets/icons/handset.svg" alt="Phone icon" />
+        <img src="../assets/icons/contacts.svg" alt="Contacts" />
         <p className="text-title font-roboto font-medium leading-[1.4]">
           8 800 111 22 33
         </p>
@@ -17,4 +17,4 @@ const FooterPhone2 = () => { // contact inf
   );
 };
 
-export default FooterPhone2;
+export default FooterContacts;
