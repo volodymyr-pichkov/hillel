@@ -1,7 +1,7 @@
 import BannerContent from "./components/BannerContent";
 import MainContent from "./components/MainContent";
 
-const Main = () => {
+const MainHome = () => {
   return (
     <main className="w-full mx-auto">
       <div
@@ -17,4 +17,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default MainHome;

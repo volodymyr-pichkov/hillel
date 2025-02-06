@@ -17,6 +17,7 @@ module.exports = {
         link: "#2C36F2",
         white: "#FFFFFF",
         grey: "#E0E1EA",
+        calendar: "#C1C2CA"
       }      
     },
   },

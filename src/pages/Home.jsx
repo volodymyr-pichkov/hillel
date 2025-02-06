@@ -1,12 +1,12 @@
 import Header from '../components/header/Header';
-import Main from '../components/main/Main';
+import MainHome from '../components/main-home/MainHome';
 import Footer from '../components/footer/Footer';
 
 const Home = () => {
   return (
     <>
     <Header />
-    <Main />
+    <MainHome />
     <Footer />
     </>
   );

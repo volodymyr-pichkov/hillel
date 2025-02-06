@@ -1,11 +1,13 @@
-import Header from '../components/header/Header';
-import Footer from '../components/footer/Footer';
+import Header from "../components/header/Header";
+import MainConverter from "../components/main-converter/MainConverter";
+import Footer from "../components/footer/Footer";
 
 const CurrencyConverter = () => {
   return (
     <>
-    <Header />
-    <Footer />
+      <Header />
+      <MainConverter />
+      <Footer />
     </>
   );
 };
