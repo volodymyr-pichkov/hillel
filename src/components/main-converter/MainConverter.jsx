@@ -14,29 +14,23 @@ const MainConverter = () => {
 
   return (
     <main>
-      <div>
-        <div>
-          <h3>Конвертер валют</h3>
-          <div>
-            <p>В мене є</p>
-            <form>
-              <input type="number" />
+      <h3>Конвертер валют</h3>
+      <p>В мене є</p>
+      <form>
+        <input type="number" />
 
-              <SelectedCurrency
-                selectedCurrency={selectedCurrency}
-                setSelectedCurrency={setSelectedCurrency}
-              />
-            </form>
+        <SelectedCurrency
+          selectedCurrency={selectedCurrency}
+          setSelectedCurrency={setSelectedCurrency}
+        />
+      </form>
 
-            <DateInput
-              date={date}
-              toggleCalendar={toggleCalendar}
-              setDate={setDate}
-              calendarOpen={calendarOpen}
-            />
-          </div>
-        </div>
-      </div>
+      <DateInput
+        date={date}
+        toggleCalendar={toggleCalendar}
+        setDate={setDate}
+        calendarOpen={calendarOpen}
+      />
     </main>
   );
 };

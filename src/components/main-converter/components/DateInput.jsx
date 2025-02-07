@@ -5,19 +5,18 @@ import "react-datepicker/dist/react-datepicker.css";
 const DateInput = ({ date, toggleCalendar, setDate, calendarOpen }) => {
   return (
     <div>
-      <div>
-        <input
-          type="text"
-          value={date ? date.toLocaleDateString() : ""}
-          readOnly
-          onClick={toggleCalendar}
-        />
-        <FaRegCalendarAlt onClick={toggleCalendar} />
-      </div>
+      <input
+        type="text"
+        value={date ? date.toLocaleDateString() : ""}
+        readOnly
+        onClick={toggleCalendar}
+      />
+      <FaRegCalendarAlt onClick={toggleCalendar} />
+
       {calendarOpen && (
         <DatePicker
           selected={date}
-          onChange={(newDate) => setDate(newDate)}
+          onChange={setDate}
           inline
           onClickOutside={toggleCalendar}
         />
