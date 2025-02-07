@@ -2,7 +2,7 @@ const SelectedCurrency = ({ selectedCurrency, setSelectedCurrency }) => {
   const currencies = ["UAH", "EUR", "USD", "JPY", "GBP", "CAD", "AUD"];
 
   return (
-    <div className="relative w-[120px]">
+    <div className="relative w-[120px] sm:w-[100px] md:w-[110px] lg:w-[120px]">
       <select
         value={selectedCurrency}
         onChange={(e) => setSelectedCurrency(e.target.value)}
