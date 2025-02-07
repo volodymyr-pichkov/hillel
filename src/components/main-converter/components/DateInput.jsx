@@ -1,4 +1,3 @@
-import { FaRegCalendarAlt } from "react-icons/fa";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
@@ -10,11 +9,13 @@ const DateInput = ({ date, setDate, toggleCalendar, calendarOpen }) => {
   value={date ? date.toLocaleDateString() : ""}
   readOnly
   onClick={toggleCalendar}
-  className="rounded border border-calendar text-navigation w-full py-[18px] pl-[20px]"
+  className="rounded border border-calendar text-navigation font-roboto font-semibold  leading-[1.4] text-xl w-full py-[18px] pl-[20px]"
 />
-      <FaRegCalendarAlt
+      <img
+      src="/assets/icons/calendar.svg"
         onClick={toggleCalendar}
-        className="cursor-pointer absolute right-0 mr-[17px]"
+        className="cursor-pointer absolute right-0 mr-[17px] w-[25px] h-[28px] text-calendar my-[17px]"
+        alt="Calendar"
       />
 
       {calendarOpen && (
