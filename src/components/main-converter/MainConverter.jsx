@@ -19,7 +19,7 @@ const MainConverter = () => {
       <div>
       <p className="mt-[70px] ml-[65px] mr-[258px] mb-[46px] text-navigation font-roboto text-xl font-medium leading-[1.4]">В мене є</p>
       <form>
-        <input type="number" className="border border-calendar"/>
+        <input type="number" className="фзborder border-calendar"/>
 
         <SelectedCurrency
           selectedCurrency={selectedCurrency}
