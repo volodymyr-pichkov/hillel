@@ -23,14 +23,13 @@ const MainConverter = () => {
           selectedCurrency={selectedCurrency}
           setSelectedCurrency={setSelectedCurrency}
         />
+        <DateInput
+          date={date}
+          toggleCalendar={toggleCalendar}
+          setDate={setDate}
+          calendarOpen={calendarOpen}
+        />
       </form>
-
-      <DateInput
-        date={date}
-        toggleCalendar={toggleCalendar}
-        setDate={setDate}
-        calendarOpen={calendarOpen}
-      />
     </main>
   );
 };
