@@ -21,5 +21,17 @@ module.exports = {
       }      
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addComponents }) {
+      addComponents({
+        '.select-no-arrow': {
+          '-webkit-appearance': 'none', /* Safari */
+          '-moz-appearance': 'none',    /* Firefox */
+          'appearance': 'none',         /* Standard syntax */
+          'background-image': 'none',   /* Remove the default dropdown icon */
+          'padding-right': '20px',      /* Adjust padding to compensate for the missing arrow */
+        },
+      });
+    },
+  ],
 };
