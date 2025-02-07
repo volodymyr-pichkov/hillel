@@ -11,6 +11,7 @@ const DateInput = ({ date, setDate, toggleCalendar, calendarOpen }) => {
         readOnly
         onClick={toggleCalendar}
       />
+
       <FaRegCalendarAlt onClick={toggleCalendar} />
 
       {calendarOpen && (
