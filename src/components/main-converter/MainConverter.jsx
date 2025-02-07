@@ -25,7 +25,7 @@ const MainConverter = () => {
           <form>
             <input
               type="number"
-              className="ml-[65px] mr-[15px] border border-calendar w-[220px]"
+              className="ml-[65px] mr-[15px] border border-calendar w-[220px] h-[60px] py-4 text-center"
             />
             <SelectedCurrency
               selectedCurrency={selectedCurrency}

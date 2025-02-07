@@ -5,6 +5,7 @@ const SelectedCurrency = ({ selectedCurrency, setSelectedCurrency }) => {
     <select
       value={selectedCurrency}
       onChange={(e) => setSelectedCurrency(e.target.value)}
+      className="border border-calendar w-[120px] h-[60px]"
     >
       {currencies.map((currency) => (
         <option key={currency} value={currency}>
