@@ -1,8 +1,8 @@
 const SelectedCurrency = ({ selectedCurrency, setSelectedCurrency }) => {
-  const currencies = ["UAH", "EUR", "USD", "JPY", "GBP", "CAD", "AUD"];
+  const currencies = ["USD", "EUR", "GBP", "CNY"];
 
   return (
-    <div className="relative inline-block">
+    <div className="relative">
       <select
         value={selectedCurrency}
         onChange={(e) => setSelectedCurrency(e.target.value)}
@@ -15,7 +15,7 @@ const SelectedCurrency = ({ selectedCurrency, setSelectedCurrency }) => {
         ))}
       </select>
       <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
-        <img src="/assets/icons/select-arrow.svg" alt="Select arrow" />
+        <img src="/assets/icons/select-arrow.svg" alt="Dropdown arrow" />
       </div>
     </div>
   );
