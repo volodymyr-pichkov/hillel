@@ -41,7 +41,7 @@ const DateInput = ({ date, setDate }) => {
       {calendarOpen && (
         <div className="absolute top-full mt-2 w-full z-10 bg-white shadow-lg rounded">
           <DatePicker
-            selected={date}
+            selected={date || null}
             onChange={(selectedDate) => {
               setDate(selectedDate);
               setCalendarOpen(false);
